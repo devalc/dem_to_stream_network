@@ -94,7 +94,7 @@ os.system("mpiexec -n 8 gridnet -p flow_directions_d8.tif -gord grid_of_strahler
 		   -tlen grid_of_total_path_length.tif")
 print "...............Done analyzing grid network..............."
 
-"""Writes the thresholded stream grid to the shapefile. Also computres the stream order for each stream segment 
+"""Writes the thresholded stream grid to the shapefile. Computes the stream order for each stream segment 
    using strahler method. The network topological connectivity is stored in the Stream Network Tree file,
    and coordinates and attributes from each grid cell along the network are stored in the Network Coordinates file. """
 

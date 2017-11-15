@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 29 12:40:21 2016
-@author: chinmay
+############################################################################################################
+#Created on Thu Sep 29 12:40:21 2016
+#@author: chinmay deval
+#Object: The script makes use of TauDEM functionality to extract stream netwrok using the DEM.
+#This script has been tested on the Ubuntu 15.10 system with TauDEM version 5.3.5.
+############################################################################################################
 
-The script makes use of TauDEM functionality to extract stream netwrok using the DEM.
-This script has been tested on the Ubuntu 15.10 system with TauDEM version 5.3.5. 
-"""
 """Import all the modules required to run the script"""
 
 import urllib
